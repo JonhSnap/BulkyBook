@@ -11,7 +11,7 @@ namespace BulkyBook.Models
     public class CoverType
     {
         [Key]
-        public int id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [MaxLength(50)]
